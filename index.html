@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWave Podcast</title>
+    <!--Tailwind CDN-->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    body{
+
+        background: radial-gradient(circle at top, #2b0a4a, #0b0216);
+    }
+</style>
+<body class="text-white font-sans">
+
+ <!--HEADER-->
+
+ <header class="flex items-center justify-between px-10 py-6">
+    <h1 class="text-2xl font-bold">Tech<span class="text-pink-500">Wave</span></h1>
+
+    <nav class="hidden md:flex gap-8 text-gray-300">
+        <a href="#">About</a>
+        <a href="#">Episodes</a>
+        <a href="#">Host</a>
+    </nav>
+        <button class="bg-gradient-to-r from-pink-500 to-purple-500 px-5 py-2 rounded-full">Subscribe →</button>
+  </header>
+
+ <!--HERO-->
+ <section class="relative text-center py-28 overflow-hidden">
+    <img src="assets/hero-bg.png" class="absolute inset-0 w-full h-full object-cover opacity-30">
+    <div class="relative z-10">
+        <div class="mx-auto w-52 h-52 rounded-full bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-600 flex items-center justify-center">
+            <img src="assets/microphone.png" class="w-16">
+        </div>
+        <h2 class="text-5xl font-bold mt-8">TechWave</h2>
+        <p class="text-gray-300 max-w-xl mx-auto mt-4">Your daily dose of tech insights, productivity hacks, and personal growth.</p>
+
+        <div class="flex justify-center gap-4 mt-8 flex items-center justify-center">
+            <button class="bg-gradient-to-r from-pink-500 to-purple-500 px-6 py-3 rounded-full text-white-100 text-1xl font-bold ">Listen on Spotify</button>
+            
+            <button class="border border-purple-400 px-6 py-3 rounded-full text-green-500 ">📧Subscribe</button>
+            
+        </div>
+    </div>
+</section>
+
+<!--STATS-->
+<section class="grid grid-cols-2 md:grid-cols-4 gap-10 text-center py-20">
+
+    <div>
+        <h3 class="text-3xl font-bold text-green-400">150K+</h3>
+        <p class="text-gray-400">Monthly Listeners</p>
+    </div>
+
+    <div>
+        <h3 class="text-3xl font-bold text-green-400">200+</h3>
+        <p class="text-gray-400">Episodes</p>
+    </div>
+
+    <div>
+        <h3 class="text-3xl font-bold text-green-400">4.9★</h3>
+        <p class="text-gray-400">Rating</p>
+    </div>
+
+    <div>
+        <h3 class="text-3xl font-bold text-green-400">50+</h3>
+        <p class="text-gray-400">Experts</p>
+    </div>
+
+</section>
+
+    
+    
+</body>
+</html>
